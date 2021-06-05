@@ -53,3 +53,29 @@ function reset() {
 	hours=minutes=seconds=miliseconds=0;
 	timer.innerHTML = "00 : 00 : 00 : 00";
 }
+
+
+						/*  ~~~~~~~~~~~~~~~~~~~~~~
+							Events to be performed 
+							~~~~~~~~~~~~~~~~~~~~~~	*/
+
+//flag so to ensure only 1 interval running.
+var flag = 0;
+
+//triggred by start button
+document.getElementsByClassName("start")[0].addEventListener("click",function() {
+	if(flag==0) {
+		flag=1;
+		start();
+	}
+})
+
+//triggred by stop button
+document.getElementsByClassName("stop")[0].addEventListener("click",function() {
+	stop();
+})
+
+//triggred by reset button
+document.getElementsByClassName("reset")[0].addEventListener("click",function() {
+	reset();
+})
