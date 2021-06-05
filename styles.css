@@ -1,0 +1,50 @@
+body {
+	background: rgba(0,0,0,0.95);
+	color: white;
+	
+}
+
+h1 {
+	color: brown;
+	font-size: 4rem;
+	letter-spacing: 4px;
+	text-shadow: -2px 0px white;
+	text-decoration: underline;
+}
+
+.p1 {
+	margin: 10rem;
+}
+
+.btn {
+	border: 2px solid black;
+	border-radius: 25px;
+	box-shadow: -2px -2px grey;
+	font-size: 2.5rem;
+	margin: 2rem;
+	padding: 0.5rem;
+}
+
+.btn:hover {
+	color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.reset {
+	background: grey;
+}
+
+.start {
+	background: green;
+}
+
+.stop {
+	background: red;
+}
+
+.timer {
+	font-size: 3.5rem;
+}
